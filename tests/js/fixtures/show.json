@@ -1,0 +1,139 @@
+{
+    "type": "atoll",
+    "resource": "atolls",
+    "labels": {
+        "singular": "Atoll",
+        "plural": "Atolls"
+    },
+    "guard": "web",
+    "urls": {
+        "index": "http://localhost/locations/atolls",
+        "create": "http://localhost/locations/atolls/create",
+        "store": "http://localhost/locations/atolls",
+        "show": "http://localhost/locations/atolls/1",
+        "edit": "http://localhost/locations/atolls/1/edit",
+        "update": "http://localhost/locations/atolls/1",
+        "destroy": "http://localhost/locations/atolls/1"
+    },
+    "can": {
+        "create": true,
+        "view": true,
+        "update": true,
+        "delete": true
+    },
+    "status": {
+        "success": null,
+        "error": null
+    },
+    "strings": {
+        "new": "New Atoll",
+        "back": "Back to Atolls",
+        "view": "View",
+        "edit": "Edit",
+        "delete": "Delete",
+        "actions": "Actions",
+        "confirm_delete": "Delete this Atoll? This can't be undone.",
+        "empty": "No Atolls yet",
+        "empty_filtered": "No Atolls match your search.",
+        "details": "Details",
+        "related": "Related"
+    },
+    "title": "HA. Haa Alifu",
+    "location": {
+        "id": 1,
+        "type": "atoll",
+        "code": "HA",
+        "dhivehi_code": "ހއ",
+        "letter_code": "A",
+        "iso_code": "MV-07",
+        "name": "Haa Alifu",
+        "dhivehi_name": "ހާ އަލިފު",
+        "official_name": "Thiladhunmathi Uthuruburi",
+        "official_dhivehi_name": "ތިލަދުންމަތީ އުތުރުބުރި",
+        "is_city": false,
+        "sort_order": 1,
+        "created_at": "2026-11-05T10:00:00.000000Z",
+        "updated_at": "2026-11-05T10:00:00.000000Z",
+        "localized_name": "Haa Alifu",
+        "label": "HA. Haa Alifu",
+        "can": {
+            "view": true,
+            "update": true,
+            "delete": true
+        },
+        "links": {
+            "show": "http://localhost/locations/atolls/1",
+            "edit": "http://localhost/locations/atolls/1/edit",
+            "update": "http://localhost/locations/atolls/1",
+            "destroy": "http://localhost/locations/atolls/1"
+        }
+    },
+    "details": [
+        {
+            "key": "name",
+            "label": "Name",
+            "value": "Haa Alifu",
+            "dir": "auto"
+        },
+        {
+            "key": "dhivehi_name",
+            "label": "Dhivehi name",
+            "value": "ހާ އަލިފު",
+            "dir": "rtl"
+        },
+        {
+            "key": "official_name",
+            "label": "Official name",
+            "value": "Thiladhunmathi Uthuruburi",
+            "dir": "auto"
+        },
+        {
+            "key": "official_dhivehi_name",
+            "label": "Official Dhivehi name",
+            "value": "ތިލަދުންމަތީ އުތުރުބުރި",
+            "dir": "rtl"
+        },
+        {
+            "key": "code",
+            "label": "Code",
+            "value": "HA",
+            "dir": "ltr"
+        },
+        {
+            "key": "dhivehi_code",
+            "label": "Dhivehi code",
+            "value": "ހއ",
+            "dir": "rtl"
+        },
+        {
+            "key": "letter_code",
+            "label": "Letter code",
+            "value": "A",
+            "dir": "ltr"
+        },
+        {
+            "key": "iso_code",
+            "label": "ISO 3166-2 code",
+            "value": "MV-07",
+            "dir": "ltr"
+        },
+        {
+            "key": "capital",
+            "label": "Capital",
+            "value": "Dhidhdhoo",
+            "dir": "auto"
+        },
+        {
+            "key": "is_city",
+            "label": "Governed by a city council",
+            "value": "No",
+            "dir": "auto"
+        }
+    ],
+    "related": [
+        {
+            "label": "Islands (2)",
+            "url": "http://localhost/locations/islands?atoll=1"
+        }
+    ]
+}

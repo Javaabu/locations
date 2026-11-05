@@ -1,0 +1,284 @@
+{
+    "type": "island",
+    "resource": "islands",
+    "labels": {
+        "singular": "ރަށް",
+        "plural": "ރަށްތައް"
+    },
+    "guard": "web",
+    "urls": {
+        "index": "http://localhost/locations/islands",
+        "create": "http://localhost/locations/islands/create",
+        "store": "http://localhost/locations/islands"
+    },
+    "can": {
+        "create": true,
+        "view": false,
+        "update": false,
+        "delete": false
+    },
+    "status": {
+        "success": null,
+        "error": null
+    },
+    "strings": {
+        "new": "އައު ރަށް",
+        "back": "ރަށްތައް އަށް އެނބުރި",
+        "view": "ބަލާ",
+        "edit": "ބަދަލުކުރޭ",
+        "delete": "ފުހެލާ",
+        "actions": "ކަންތައްތައް",
+        "confirm_delete": "މި ރަށް ފުހެލަންވީތޯ؟ މިކަން އަނބުރާ ނުކުރެވޭނެ.",
+        "empty": "އަދި އެއްވެސް ރަށްތައް ނެތް",
+        "empty_filtered": "ހޯދި ގޮތާ ދިމާވާ ރަށްތައް ނެތް.",
+        "details": "ތަފްސީލު",
+        "related": "ގުޅުންހުރި"
+    },
+    "title": "ރަށްތައް",
+    "columns": [
+        {
+            "key": "code",
+            "label": "ކޯޑު",
+            "dir": "ltr"
+        },
+        {
+            "key": "name",
+            "label": "ނަން",
+            "dir": "auto"
+        },
+        {
+            "key": "dhivehi_name",
+            "label": "ދިވެހި ނަން",
+            "dir": "rtl"
+        },
+        {
+            "key": "atoll",
+            "label": "އަތޮޅު",
+            "dir": "auto"
+        },
+        {
+            "key": "category",
+            "label": "ބާވަތް",
+            "dir": "auto"
+        }
+    ],
+    "rows": [
+        {
+            "id": 1,
+            "cells": {
+                "code": "LD0246",
+                "name": "Hoarafushi",
+                "dhivehi_name": "ހޯރަފުށި",
+                "atoll": "ހއ. ހާ އަލިފު",
+                "category": "ރައްޔިތުން ދިރިއުޅޭ ރަށް"
+            },
+            "links": {
+                "show": "http://localhost/locations/islands/1",
+                "edit": "http://localhost/locations/islands/1/edit",
+                "update": "http://localhost/locations/islands/1",
+                "destroy": "http://localhost/locations/islands/1"
+            },
+            "can": {
+                "view": true,
+                "update": true,
+                "delete": true
+            }
+        },
+        {
+            "id": 2,
+            "cells": {
+                "code": "LD0568",
+                "name": "Dhidhdhoo",
+                "dhivehi_name": "ދިއްދޫ",
+                "atoll": "ހއ. ހާ އަލިފު",
+                "category": "ރައްޔިތުން ދިރިއުޅޭ ރަށް"
+            },
+            "links": {
+                "show": "http://localhost/locations/islands/2",
+                "edit": "http://localhost/locations/islands/2/edit",
+                "update": "http://localhost/locations/islands/2",
+                "destroy": "http://localhost/locations/islands/2"
+            },
+            "can": {
+                "view": true,
+                "update": true,
+                "delete": true
+            }
+        }
+    ],
+    "locations": {
+        "current_page": 1,
+        "data": [
+            {
+                "id": 1,
+                "atoll_id": 1,
+                "code": "LD0246",
+                "name": "Hoarafushi",
+                "dhivehi_name": "ހޯރަފުށި",
+                "category": "residential",
+                "is_capital": false,
+                "latitude": 6.98,
+                "longitude": 72.89,
+                "area": 69.02,
+                "translations": null,
+                "lang": null,
+                "created_at": "2026-11-05T10:00:00.000000Z",
+                "updated_at": "2026-11-05T10:00:00.000000Z",
+                "atoll": {
+                    "id": 1,
+                    "code": "HA",
+                    "dhivehi_code": "ހއ",
+                    "letter_code": "A",
+                    "iso_code": "MV-07",
+                    "name": "Haa Alifu",
+                    "dhivehi_name": "ހާ އަލިފު",
+                    "official_name": "Thiladhunmathi Uthuruburi",
+                    "official_dhivehi_name": "ތިލަދުންމަތީ އުތުރުބުރި",
+                    "is_city": false,
+                    "sort_order": 1,
+                    "translations": null,
+                    "lang": null,
+                    "created_at": "2026-11-05T10:00:00.000000Z",
+                    "updated_at": "2026-11-05T10:00:00.000000Z"
+                }
+            },
+            {
+                "id": 2,
+                "atoll_id": 1,
+                "code": "LD0568",
+                "name": "Dhidhdhoo",
+                "dhivehi_name": "ދިއްދޫ",
+                "category": "residential",
+                "is_capital": true,
+                "latitude": 6.88,
+                "longitude": 73.11,
+                "area": 96.54,
+                "translations": null,
+                "lang": null,
+                "created_at": "2026-11-05T10:00:00.000000Z",
+                "updated_at": "2026-11-05T10:00:00.000000Z",
+                "atoll": {
+                    "id": 1,
+                    "code": "HA",
+                    "dhivehi_code": "ހއ",
+                    "letter_code": "A",
+                    "iso_code": "MV-07",
+                    "name": "Haa Alifu",
+                    "dhivehi_name": "ހާ އަލިފު",
+                    "official_name": "Thiladhunmathi Uthuruburi",
+                    "official_dhivehi_name": "ތިލަދުންމަތީ އުތުރުބުރި",
+                    "is_city": false,
+                    "sort_order": 1,
+                    "translations": null,
+                    "lang": null,
+                    "created_at": "2026-11-05T10:00:00.000000Z",
+                    "updated_at": "2026-11-05T10:00:00.000000Z"
+                }
+            }
+        ],
+        "first_page_url": "http://localhost/locations/islands?page=1",
+        "from": 1,
+        "last_page": 1,
+        "last_page_url": "http://localhost/locations/islands?page=1",
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "page": null,
+                "active": false
+            },
+            {
+                "url": "http://localhost/locations/islands?page=1",
+                "label": "1",
+                "page": 1,
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "page": null,
+                "active": false
+            }
+        ],
+        "next_page_url": null,
+        "path": "http://localhost/locations/islands",
+        "per_page": 20,
+        "prev_page_url": null,
+        "to": 2,
+        "total": 2
+    },
+    "filters": {
+        "stencil": 1,
+        "id": "locations-islands-filters",
+        "action": "http://localhost/locations/islands",
+        "method": "GET",
+        "operation": "edit",
+        "submit": "ފިލްޓަރ ކުރޭ",
+        "state": {
+            "search": null,
+            "atoll": null,
+            "category": null
+        },
+        "live": null,
+        "components": [
+            {
+                "type": "text",
+                "key": "search",
+                "name": "search",
+                "component": "Text",
+                "props": {
+                    "label": "ހޯދާ",
+                    "placeholder": "ރަށްތައް ހޯދާ",
+                    "showPlaceholder": true
+                }
+            },
+            {
+                "type": "atoll-select",
+                "key": "atoll",
+                "name": "atoll",
+                "component": "Select2",
+                "props": {
+                    "label": "އަތޮޅު",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "ހއ. ހާ އަލިފު"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "select",
+                "key": "category",
+                "name": "category",
+                "component": "Select",
+                "props": {
+                    "label": "ބާވަތް",
+                    "options": [
+                        {
+                            "value": "residential",
+                            "label": "ރައްޔިތުން ދިރިއުޅޭ ރަށް"
+                        },
+                        {
+                            "value": "tourism",
+                            "label": "ފަތުރުވެރިކަމުގެ ރަށް"
+                        },
+                        {
+                            "value": "industrial",
+                            "label": "ސިނާޢީ ރަށް"
+                        },
+                        {
+                            "value": "institutional",
+                            "label": "މުއައްސަސާތަކުގެ ރަށް"
+                        },
+                        {
+                            "value": "uninhabited",
+                            "label": "މީހުން ނުދިރިއުޅޭ ރަށް"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "filtered": false
+}

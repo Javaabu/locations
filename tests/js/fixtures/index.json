@@ -1,0 +1,284 @@
+{
+    "type": "island",
+    "resource": "islands",
+    "labels": {
+        "singular": "Island",
+        "plural": "Islands"
+    },
+    "guard": "web",
+    "urls": {
+        "index": "http://localhost/locations/islands",
+        "create": "http://localhost/locations/islands/create",
+        "store": "http://localhost/locations/islands"
+    },
+    "can": {
+        "create": true,
+        "view": false,
+        "update": false,
+        "delete": false
+    },
+    "status": {
+        "success": null,
+        "error": null
+    },
+    "strings": {
+        "new": "New Island",
+        "back": "Back to Islands",
+        "view": "View",
+        "edit": "Edit",
+        "delete": "Delete",
+        "actions": "Actions",
+        "confirm_delete": "Delete this Island? This can't be undone.",
+        "empty": "No Islands yet",
+        "empty_filtered": "No Islands match your search.",
+        "details": "Details",
+        "related": "Related"
+    },
+    "title": "Islands",
+    "columns": [
+        {
+            "key": "code",
+            "label": "Code",
+            "dir": "ltr"
+        },
+        {
+            "key": "name",
+            "label": "Name",
+            "dir": "auto"
+        },
+        {
+            "key": "dhivehi_name",
+            "label": "Dhivehi name",
+            "dir": "rtl"
+        },
+        {
+            "key": "atoll",
+            "label": "Atoll",
+            "dir": "auto"
+        },
+        {
+            "key": "category",
+            "label": "Category",
+            "dir": "auto"
+        }
+    ],
+    "rows": [
+        {
+            "id": 2,
+            "cells": {
+                "code": "LD0568",
+                "name": "Dhidhdhoo",
+                "dhivehi_name": "ދިއްދޫ",
+                "atoll": "HA. Haa Alifu",
+                "category": "Residential"
+            },
+            "links": {
+                "show": "http://localhost/locations/islands/2",
+                "edit": "http://localhost/locations/islands/2/edit",
+                "update": "http://localhost/locations/islands/2",
+                "destroy": "http://localhost/locations/islands/2"
+            },
+            "can": {
+                "view": true,
+                "update": true,
+                "delete": true
+            }
+        },
+        {
+            "id": 1,
+            "cells": {
+                "code": "LD0246",
+                "name": "Hoarafushi",
+                "dhivehi_name": "ހޯރަފުށި",
+                "atoll": "HA. Haa Alifu",
+                "category": "Residential"
+            },
+            "links": {
+                "show": "http://localhost/locations/islands/1",
+                "edit": "http://localhost/locations/islands/1/edit",
+                "update": "http://localhost/locations/islands/1",
+                "destroy": "http://localhost/locations/islands/1"
+            },
+            "can": {
+                "view": true,
+                "update": true,
+                "delete": true
+            }
+        }
+    ],
+    "locations": {
+        "current_page": 1,
+        "data": [
+            {
+                "id": 2,
+                "atoll_id": 1,
+                "code": "LD0568",
+                "name": "Dhidhdhoo",
+                "dhivehi_name": "ދިއްދޫ",
+                "category": "residential",
+                "is_capital": true,
+                "latitude": 6.88,
+                "longitude": 73.11,
+                "area": 96.54,
+                "translations": null,
+                "lang": null,
+                "created_at": "2026-11-05T10:00:00.000000Z",
+                "updated_at": "2026-11-05T10:00:00.000000Z",
+                "atoll": {
+                    "id": 1,
+                    "code": "HA",
+                    "dhivehi_code": "ހއ",
+                    "letter_code": "A",
+                    "iso_code": "MV-07",
+                    "name": "Haa Alifu",
+                    "dhivehi_name": "ހާ އަލިފު",
+                    "official_name": "Thiladhunmathi Uthuruburi",
+                    "official_dhivehi_name": "ތިލަދުންމަތީ އުތުރުބުރި",
+                    "is_city": false,
+                    "sort_order": 1,
+                    "translations": null,
+                    "lang": null,
+                    "created_at": "2026-11-05T10:00:00.000000Z",
+                    "updated_at": "2026-11-05T10:00:00.000000Z"
+                }
+            },
+            {
+                "id": 1,
+                "atoll_id": 1,
+                "code": "LD0246",
+                "name": "Hoarafushi",
+                "dhivehi_name": "ހޯރަފުށި",
+                "category": "residential",
+                "is_capital": false,
+                "latitude": 6.98,
+                "longitude": 72.89,
+                "area": 69.02,
+                "translations": null,
+                "lang": null,
+                "created_at": "2026-11-05T10:00:00.000000Z",
+                "updated_at": "2026-11-05T10:00:00.000000Z",
+                "atoll": {
+                    "id": 1,
+                    "code": "HA",
+                    "dhivehi_code": "ހއ",
+                    "letter_code": "A",
+                    "iso_code": "MV-07",
+                    "name": "Haa Alifu",
+                    "dhivehi_name": "ހާ އަލިފު",
+                    "official_name": "Thiladhunmathi Uthuruburi",
+                    "official_dhivehi_name": "ތިލަދުންމަތީ އުތުރުބުރި",
+                    "is_city": false,
+                    "sort_order": 1,
+                    "translations": null,
+                    "lang": null,
+                    "created_at": "2026-11-05T10:00:00.000000Z",
+                    "updated_at": "2026-11-05T10:00:00.000000Z"
+                }
+            }
+        ],
+        "first_page_url": "http://localhost/locations/islands?atoll=HA&page=1",
+        "from": 1,
+        "last_page": 1,
+        "last_page_url": "http://localhost/locations/islands?atoll=HA&page=1",
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "page": null,
+                "active": false
+            },
+            {
+                "url": "http://localhost/locations/islands?atoll=HA&page=1",
+                "label": "1",
+                "page": 1,
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "page": null,
+                "active": false
+            }
+        ],
+        "next_page_url": null,
+        "path": "http://localhost/locations/islands",
+        "per_page": 20,
+        "prev_page_url": null,
+        "to": 2,
+        "total": 2
+    },
+    "filters": {
+        "stencil": 1,
+        "id": "locations-islands-filters",
+        "action": "http://localhost/locations/islands",
+        "method": "GET",
+        "operation": "edit",
+        "submit": "Filter",
+        "state": {
+            "search": null,
+            "atoll": "HA",
+            "category": null
+        },
+        "live": null,
+        "components": [
+            {
+                "type": "text",
+                "key": "search",
+                "name": "search",
+                "component": "Text",
+                "props": {
+                    "label": "Search",
+                    "placeholder": "Search Islands",
+                    "showPlaceholder": true
+                }
+            },
+            {
+                "type": "atoll-select",
+                "key": "atoll",
+                "name": "atoll",
+                "component": "Select2",
+                "props": {
+                    "label": "Atoll",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "HA. Haa Alifu"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "select",
+                "key": "category",
+                "name": "category",
+                "component": "Select",
+                "props": {
+                    "label": "Category",
+                    "options": [
+                        {
+                            "value": "residential",
+                            "label": "Residential"
+                        },
+                        {
+                            "value": "tourism",
+                            "label": "Tourism"
+                        },
+                        {
+                            "value": "industrial",
+                            "label": "Industrial"
+                        },
+                        {
+                            "value": "institutional",
+                            "label": "Institutional"
+                        },
+                        {
+                            "value": "uninhabited",
+                            "label": "Uninhabited"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "filtered": true
+}

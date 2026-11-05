@@ -1,0 +1,265 @@
+{
+    "type": "island",
+    "resource": "islands",
+    "labels": {
+        "singular": "Island",
+        "plural": "Islands"
+    },
+    "guard": "web",
+    "urls": {
+        "index": "http://localhost/locations/islands",
+        "create": "http://localhost/locations/islands/create",
+        "store": "http://localhost/locations/islands",
+        "show": "http://localhost/locations/islands/2",
+        "edit": "http://localhost/locations/islands/2/edit",
+        "update": "http://localhost/locations/islands/2",
+        "destroy": "http://localhost/locations/islands/2"
+    },
+    "can": {
+        "create": true,
+        "view": true,
+        "update": true,
+        "delete": true
+    },
+    "status": {
+        "success": null,
+        "error": null
+    },
+    "strings": {
+        "new": "New Island",
+        "back": "Back to Islands",
+        "view": "View",
+        "edit": "Edit",
+        "delete": "Delete",
+        "actions": "Actions",
+        "confirm_delete": "Delete this Island? This can't be undone.",
+        "empty": "No Islands yet",
+        "empty_filtered": "No Islands match your search.",
+        "details": "Details",
+        "related": "Related"
+    },
+    "title": "HA. Dhidhdhoo",
+    "form": {
+        "stencil": 1,
+        "id": "island-form",
+        "action": "http://localhost/locations/islands/2",
+        "method": "PATCH",
+        "operation": "edit",
+        "submit": "Save",
+        "summary": true,
+        "state": {
+            "atoll_id": 1,
+            "code": "LD0568",
+            "name": "Dhidhdhoo",
+            "dhivehi_name": "ދިއްދޫ",
+            "category": "residential",
+            "is_capital": true,
+            "latitude": 6.88,
+            "longitude": 73.11,
+            "area": 96.54
+        },
+        "live": null,
+        "components": [
+            {
+                "type": "section",
+                "key": "section-0",
+                "props": {
+                    "heading": "Details",
+                    "columns": {
+                        "default": 1,
+                        "md": 2
+                    }
+                },
+                "children": [
+                    {
+                        "type": "atoll-select",
+                        "key": "atoll_id",
+                        "name": "atoll_id",
+                        "component": "Select2",
+                        "props": {
+                            "label": "Atoll",
+                            "required": true,
+                            "options": [
+                                {
+                                    "value": "1",
+                                    "label": "HA. Haa Alifu"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "key": "code",
+                        "name": "code",
+                        "component": "Text",
+                        "props": {
+                            "label": "Code",
+                            "required": true,
+                            "help": "The feature code of the island register, e.g. LD0442",
+                            "maxLength": 16
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "key": "name",
+                        "name": "name",
+                        "component": "Text",
+                        "props": {
+                            "label": "Name",
+                            "maxLength": 255
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "key": "dhivehi_name",
+                        "name": "dhivehi_name",
+                        "component": "Text",
+                        "props": {
+                            "label": "Dhivehi name",
+                            "thaana": true,
+                            "maxLength": 255
+                        }
+                    },
+                    {
+                        "type": "select",
+                        "key": "category",
+                        "name": "category",
+                        "component": "Select",
+                        "props": {
+                            "label": "Category",
+                            "options": [
+                                {
+                                    "value": "residential",
+                                    "label": "Residential"
+                                },
+                                {
+                                    "value": "tourism",
+                                    "label": "Tourism"
+                                },
+                                {
+                                    "value": "industrial",
+                                    "label": "Industrial"
+                                },
+                                {
+                                    "value": "institutional",
+                                    "label": "Institutional"
+                                },
+                                {
+                                    "value": "uninhabited",
+                                    "label": "Uninhabited"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "checkbox",
+                        "key": "is_capital",
+                        "name": "is_capital",
+                        "component": "Checkbox",
+                        "props": {
+                            "label": "Atoll capital"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "section",
+                "key": "section-1",
+                "props": {
+                    "heading": "Geography",
+                    "columns": {
+                        "default": 1,
+                        "md": 3
+                    }
+                },
+                "children": [
+                    {
+                        "type": "text",
+                        "key": "latitude",
+                        "name": "latitude",
+                        "component": "Number",
+                        "props": {
+                            "label": "Latitude",
+                            "min": -90,
+                            "max": 90,
+                            "step": "any"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "key": "longitude",
+                        "name": "longitude",
+                        "component": "Number",
+                        "props": {
+                            "label": "Longitude",
+                            "min": -180,
+                            "max": 180,
+                            "step": "any"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "key": "area",
+                        "name": "area",
+                        "component": "Number",
+                        "props": {
+                            "label": "Area",
+                            "append": "ha",
+                            "min": 0,
+                            "step": "any"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "location": {
+        "id": 2,
+        "type": "island",
+        "atoll_id": 1,
+        "code": "LD0568",
+        "name": "Dhidhdhoo",
+        "dhivehi_name": "ދިއްދޫ",
+        "category": "residential",
+        "is_capital": true,
+        "latitude": 6.88,
+        "longitude": 73.11,
+        "area": 96.54,
+        "created_at": "2026-11-05T10:00:00.000000Z",
+        "updated_at": "2026-11-05T10:00:00.000000Z",
+        "localized_name": "Dhidhdhoo",
+        "label": "Dhidhdhoo",
+        "formatted_name": "HA. Dhidhdhoo",
+        "category_label": "Residential",
+        "atoll": {
+            "id": 1,
+            "type": "atoll",
+            "code": "HA",
+            "dhivehi_code": "ހއ",
+            "letter_code": "A",
+            "iso_code": "MV-07",
+            "name": "Haa Alifu",
+            "dhivehi_name": "ހާ އަލިފު",
+            "official_name": "Thiladhunmathi Uthuruburi",
+            "official_dhivehi_name": "ތިލަދުންމަތީ އުތުރުބުރި",
+            "is_city": false,
+            "sort_order": 1,
+            "created_at": "2026-11-05T10:00:00.000000Z",
+            "updated_at": "2026-11-05T10:00:00.000000Z",
+            "localized_name": "Haa Alifu",
+            "label": "HA. Haa Alifu"
+        },
+        "can": {
+            "view": true,
+            "update": true,
+            "delete": true
+        },
+        "links": {
+            "show": "http://localhost/locations/islands/2",
+            "edit": "http://localhost/locations/islands/2/edit",
+            "update": "http://localhost/locations/islands/2",
+            "destroy": "http://localhost/locations/islands/2"
+        }
+    },
+    "translations": null
+}
