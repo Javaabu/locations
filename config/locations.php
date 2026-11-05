@@ -130,6 +130,18 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Options route
+    |--------------------------------------------------------------------------
+    |
+    | The route name prefix Route::locationOptions() registers the options
+    | endpoint under. The location selects find their endpoint by it.
+    |
+    */
+
+    'options_route' => 'location-options',
+
+    /*
+    |--------------------------------------------------------------------------
     | Controllers
     |--------------------------------------------------------------------------
     |

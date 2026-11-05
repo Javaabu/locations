@@ -24,7 +24,7 @@ return new class extends Migration
 
         Schema::create(Locations::table('states'), function (Blueprint $table) {
             $table->id();
-            $table->foreignId('country_id')->constrained(Locations::table('countries'))->cascadeOnDelete();
+            $table->foreignId('country_id')->constrained(Locations::table('countries'))->restrictOnDelete();
             $table->string('code', 10)->nullable()->unique();
             $table->string('name');
             $table->string('dhivehi_name')->nullable();
@@ -35,7 +35,7 @@ return new class extends Migration
 
         Schema::create(Locations::table('cities'), function (Blueprint $table) {
             $table->id();
-            $table->foreignId('country_id')->constrained(Locations::table('countries'))->cascadeOnDelete();
+            $table->foreignId('country_id')->constrained(Locations::table('countries'))->restrictOnDelete();
             $table->foreignId('state_id')->nullable()->constrained(Locations::table('states'))->nullOnDelete();
             $table->string('code')->nullable()->index();
             $table->string('name');
@@ -64,7 +64,7 @@ return new class extends Migration
 
         Schema::create(Locations::table('islands'), function (Blueprint $table) {
             $table->id();
-            $table->foreignId('atoll_id')->constrained(Locations::table('atolls'))->cascadeOnDelete();
+            $table->foreignId('atoll_id')->constrained(Locations::table('atolls'))->restrictOnDelete();
             $table->string('code', 16)->unique();
             $table->string('name')->nullable()->index();
             $table->string('dhivehi_name')->nullable();
