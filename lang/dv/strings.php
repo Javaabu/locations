@@ -67,13 +67,13 @@ return [
     'actions' => [
         'new' => 'އައު :type',
         'create' => ':type އުފައްދާ',
-        'save' => 'ސޭވްކުރޭ',
+        'save' => 'ސޭވް ކުރައްވާ',
         'view' => 'ބަލާ',
         'edit' => 'ބަދަލުކުރޭ',
-        'delete' => 'ފުހެލާ',
+        'delete' => 'ފޮހެލާ',
         'actions' => 'ކަންތައްތައް',
         'back' => ':type އަށް އެނބުރި',
-        'filter' => 'ފިލްޓަރ ކުރޭ',
+        'filter' => 'ފިލްޓަރު ކުރޭ',
         'search' => 'ހޯދާ',
     ],
 
@@ -82,16 +82,11 @@ return [
     'messages' => [
         'created' => ':type އުފެއްދިއްޖެ',
         'updated' => ':type ބަދަލުކުރެވިއްޖެ',
-        'deleted' => ':type ފުހެލެވިއްޖެ',
-        'confirm_delete' => 'މި :type ފުހެލަންވީތޯ؟ މިކަން އަނބުރާ ނުކުރެވޭނެ.',
-        'has_children' => ':children ހުރިހާ ހިނދަކު މި :type ނުފުހެލެވޭނެ.',
+        'deleted' => ':type ފޮހެލިއްޖެ',
+        'confirm_delete' => 'މި :type ފޮހެލަންވީތޯ؟ މިކަން އަނބުރާ ނުކުރެވޭނެ.',
+        'has_children' => ':children ހުރިހާ ހިނދަކު މި :type ނުފޮހެލޭނެ.',
         'empty' => 'އަދި އެއްވެސް :type ނެތް',
         'empty_filtered' => 'ހޯދި ގޮތާ ދިމާވާ :type ނެތް.',
-    ],
-
-    'selects' => [
-        'placeholder' => 'އެއްވެސް އެއްޗެއް ހޮވިފައެއް ނުވޭ',
-        'choose_parent' => 'ފުރަތަމަ :parent ހޮވާ',
     ],
 
     'yes' => 'އާން',

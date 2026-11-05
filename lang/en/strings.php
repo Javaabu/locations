@@ -89,11 +89,6 @@ return [
         'empty_filtered' => 'No :type match your search.',
     ],
 
-    'selects' => [
-        'placeholder' => 'Nothing selected',
-        'choose_parent' => 'Choose the :parent first',
-    ],
-
     'yes' => 'Yes',
     'no' => 'No',
 

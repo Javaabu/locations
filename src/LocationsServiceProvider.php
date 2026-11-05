@@ -47,6 +47,7 @@ class LocationsServiceProvider extends ServiceProvider
         }
 
         $this->loadTranslationsFrom(__DIR__ . '/../lang', 'locations');
+        $this->loadJsonTranslationsFrom(__DIR__ . '/../lang');
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'locations');
         Blade::componentNamespace('Javaabu\\Locations\\Views\\Components', 'locations');
 
