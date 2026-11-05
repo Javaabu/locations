@@ -102,18 +102,18 @@ class Atoll extends Model
     }
 
     /**
-     * `HA. Haa Alifu` / `ހއ. ހާ އަލިފު`: the abbreviation and the name, as atolls are listed
+     * `HA. Haa Alifu` / `ހއ. ހާ އަލިފު`: the abbreviation and the name, as atolls are listed.
+     * Malé City, which has no Thaana abbreviation, is just its name.
      */
     public function optionLabel(): string
     {
         $name = $this->localizedName();
-        $code = $this->localizedCode();
 
-        if ($code === '' || $code === $name) {
+        if (blank($this->dhivehi_code)) {
             return $name;
         }
 
-        return "{$code}. {$name}";
+        return "{$this->localizedCode()}. {$name}";
     }
 
     public function scopeCode(Builder $query, string $code): Builder

@@ -2,6 +2,7 @@
 
 namespace Javaabu\Locations;
 
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Javaabu\Locations\Commands\SeedLocationsCommand;
@@ -47,6 +48,7 @@ class LocationsServiceProvider extends ServiceProvider
 
         $this->loadTranslationsFrom(__DIR__ . '/../lang', 'locations');
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'locations');
+        Blade::componentNamespace('Javaabu\\Locations\\Views\\Components', 'locations');
 
         $this->registerRouteMacros();
         $this->registerPermissions();

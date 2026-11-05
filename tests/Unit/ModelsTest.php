@@ -136,7 +136,7 @@ class ModelsTest extends TestCase
         Atoll::factory()->male()->create();
         Atoll::factory()->haaAlifu()->create();
 
-        $this->assertEquals(['HA', 'MLE'], Atoll::query()->ordered()->pluck('code')->all());
+        $this->assertEquals(['MLE', 'HA'], Atoll::query()->ordered()->pluck('code')->all());
     }
 
     #[Test]

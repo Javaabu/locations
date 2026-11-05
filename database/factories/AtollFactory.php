@@ -54,7 +54,7 @@ class AtollFactory extends Factory
             'official_name' => 'Malé City',
             'official_dhivehi_name' => 'މާލެ ސިޓީ',
             'is_city' => true,
-            'sort_order' => 21,
+            'sort_order' => 0,
         ]);
     }
 }
