@@ -1,0 +1,43 @@
+# javaabu/locations
+
+> Countries, states, cities, atolls and islands for Laravel. Seed data for all 249 ISO 3166-1 countries (codes, English and Dhivehi names, calling codes), the 20 administrative atolls and Malé City (letter codes, ISO 3166-2:MV codes, official names), and every island of the Maldives' national island register (feature codes like LD0442, Dhivehi names, categories, coordinates, area), plus optional ISO 3166-2 states. Cascading selects (country → atoll → island, country → state → city) for Blade (<x-locations::island-select>), React (IslandSelect from @javaabu/locations) and javaabu/stencil (IslandSelect::make()->dependsOn()). Admin pages for every type in Blade or Inertia React, with overridable controllers and javaabu/permissions policies. Dhivehi and RTL built in; javaabu/translatable optional.
+
+Paths are relative to this file. In a project, that's vendor/javaabu/locations/.
+
+## Rules
+
+- Never hard-code countries, atolls or islands (arrays, enums, your own seeders). Seed the package's data with `php artisan locations:seed` and use its models: `Country`, `State`, `City`, `Atoll`, `Island` in `Javaabu\Locations\Models`.
+- Resolve models with `Locations::islandModel()` (or `Locations::model('island')`) in reusable code, so an app's configured model (`config('locations.models')`) is used. Relate your tables with plain foreign keys to `Locations::table('islands')`.
+- Look locations up by code, never by id: `Country::findByCode('MV')`, `Atoll::findByCode('HA')`, `Island::findByCode('LD0442')`. Ids depend on seeding order.
+- Names: `name` is English and `dhivehi_name` is Thaana. There is no `name_dv` column; that's javaabu/translatable's naming. Show names with `localizedName()` / `localized_name`, islands in addresses with `formattedName()` (`HA. Dhidhdhoo` / `ހއ. ދިއްދޫ`), and atolls with `optionLabel()` (`HA. Haa Alifu`).
+- Atolls belong to the Maldives and have no country column; Malé City is the atoll `MLE`. Use the island scopes `ofAtoll('HA')`, `inhabited()`, `category(IslandCategories::TOURISM)`, `capitals()`, `named()`, `search()`, `ordered()`.
+- Register `Route::locationOptions()` for any cascading select, and `Route::locations(['guard' => …])` inside the app's admin group for the admin pages. Nothing registers routes automatically.
+- Cascades: Blade `<x-locations::atoll-select child="island_id" />` + `<x-locations::island-select parent="atoll_id" />`; React `<IslandSelect name="island_id" parent="#atoll_id" />`; stencil `IslandSelect::make('island_id')->dependsOn('atoll_id')`. Narrow options with `filters` (`['category' => 'residential']`), not by filtering in the view.
+- Authorize with the package's permissions (`view_islands`, `edit_islands`, `delete_islands`, …) and policies; run `php artisan permissions:sync`. Override a policy with `config('permissions.policies')` or `Gate::policy(Island::class, …)`; override a controller with `config('locations.controllers')`.
+- Re-seeding only adds missing locations. `locations:seed --update` overwrites names admins edited; never run it on production data without asking.
+- Every user-facing string goes through `__('locations::strings.…')` with a Dhivehi line in `lang/dv/strings.php`. Use Thaana in tests of user-facing behaviour.
+
+## Docs
+
+- [Introduction](docs/intro.md): what the package does
+- [Requirements](docs/requirements.md): PHP, Laravel, the Javaabu packages and optional ones
+- [Installation & Setup](docs/installation-and-setup.md): installing, migrating, seeding, routes, Blade and Inertia setup, publishing
+- [AI assistants](docs/ai-assistants.md): Laravel Boost and these docs
+- [Models](docs/basic-usage/models.md): the five models, names in English and Dhivehi, scopes, factories, migrations
+- [Seeding the data](docs/basic-usage/seeding.md): locations:seed, the seeders, LocationsImporter, LocationData
+- [Location selects](docs/basic-usage/location-selects.md): Blade, React and stencil selects, cascades, filters
+- [Admin pages](docs/basic-usage/admin-pages.md): Route::locations(), the pages, permissions, JSON, Inertia props
+- [Data sources](docs/advanced-usage/data-sources.md): where the data comes from, licences, what needs review, updating it
+- [Configuration](docs/advanced-usage/configuration.md): every config option
+- [Custom models](docs/advanced-usage/custom-models.md): your own models, relating your tables to locations
+- [Permissions and policies](docs/advanced-usage/permissions-and-policies.md): the permissions, policies, guards and overriding them
+- [Overriding controllers and views](docs/advanced-usage/overriding-controllers-and-views.md): controllers, forms, Blade views, React pages
+- [The options endpoint](docs/advanced-usage/options-endpoint.md): Route::locationOptions(), filters, responses
+- [Translatable](docs/advanced-usage/translatable.md): optional javaabu/translatable support
+- [Dhivehi and RTL](docs/advanced-usage/dhivehi-and-rtl.md): strings, names, right to left, translations for review
+- [Testing](docs/advanced-usage/testing.md): factories, seeding, testing forms, pages and the endpoint
+- [API reference](docs/advanced-usage/api-reference.md): every PHP class and JavaScript export
+- [Questions and Security](docs/questions-and-security.md): where to get help
+- [Changelog](docs/changelog.md): where changes are listed
+- [About Us](docs/about-us.md): Javaabu
+- [Contributing to the docs](docs/contributing-to-docs.md): how the docs are built

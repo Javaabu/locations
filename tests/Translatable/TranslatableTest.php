@@ -157,4 +157,23 @@ class TranslatableTest extends TestCase
         $this->assertEquals('ހުރާ', $island->translate('name', 'dv'));
         $this->assertEquals('ހުރާ', $island->dhivehi_name);
     }
+
+    #[Test]
+    public function it_shows_the_translation_of_other_languages(): void
+    {
+        $this->setUpLanguages(['en', 'dv', 'ar']);
+
+        $island = TranslatableIsland::query()->create([
+            'atoll_id' => Atoll::factory()->create()->id,
+            'code' => 'LD9999',
+            'name' => 'Huraa',
+        ]);
+
+        $island->setTranslationAttributeValue('name', 'ar', 'هورا');
+        $island->save();
+
+        $this->assertEquals('هورا', $island->refresh()->localizedName('ar'));
+        $this->assertEquals('Huraa', $island->localizedName('dv'));
+        $this->assertEquals('Huraa', $island->localizedName('fr'));
+    }
 }

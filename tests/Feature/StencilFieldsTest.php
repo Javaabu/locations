@@ -128,4 +128,22 @@ class StencilFieldsTest extends TestCase
 
         $this->assertEquals(['Inhabited'], array_values($field->getOptions()));
     }
+
+    #[Test]
+    public function it_narrows_the_options_and_the_reloads_with_filters(): void
+    {
+        $atoll = Atoll::factory()->create();
+        Island::factory()->for($atoll)->create(['name' => 'Inhabited']);
+        Island::factory()->for($atoll)->category(IslandCategories::TOURISM)->create(['name' => 'Resort']);
+
+        $json = Form::make()->model(['atoll_id' => $atoll->id])->schema([
+            AtollSelect::make('atoll_id'),
+            IslandSelect::make('island_id')->dependsOn('atoll_id')->filters(['category' => 'tourism']),
+        ])->render('json');
+
+        $island = $this->field($json, 'island_id');
+
+        $this->assertEquals(['Resort'], array_column($island['props']['options'], 'label'));
+        $this->assertEquals('http://localhost/location-options/islands?filter%5Bcategory%5D=tourism', $island['props']['ajaxUrl']);
+    }
 }

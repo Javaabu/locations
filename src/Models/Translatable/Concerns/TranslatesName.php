@@ -10,6 +10,31 @@ use Javaabu\Locations\Locations;
  */
 trait TranslatesName
 {
+    /**
+     * The name in a locale: its translation, then (for Dhivehi locales) the `dhivehi_name`
+     * column, then the English name
+     */
+    public function localizedName(?string $locale = null): string
+    {
+        $locale ??= app()->getLocale();
+
+        if (Locations::isDhivehiLocale($locale)) {
+            $dhivehi_name = $this->dhivehiNameFor($locale);
+
+            if (filled($dhivehi_name)) {
+                return $dhivehi_name;
+            }
+        }
+
+        $translation = $this->isAllowedTranslationLocale($locale) ? $this->translate('name', $locale, false) : null;
+
+        if (filled($translation)) {
+            return $translation;
+        }
+
+        return (string) ($this->englishName() ?? $this->getKey());
+    }
+
     protected function dhivehiNameFor(string $locale): ?string
     {
         $translation = $this->translate('name', $locale, false);

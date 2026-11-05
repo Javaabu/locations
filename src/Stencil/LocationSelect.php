@@ -27,6 +27,9 @@ abstract class LocationSelect extends Select
 
     protected ?Closure $modify_query = null;
 
+    /** @var array<string, mixed> Filters of the options endpoint, e.g. `['category' => 'residential']` */
+    protected array $filters = [];
+
     protected function setUp(): void
     {
         parent::setUp();
@@ -60,6 +63,20 @@ abstract class LocationSelect extends Select
     public function query(?Closure $callback): static
     {
         $this->modify_query = $callback;
+
+        return $this;
+    }
+
+    /**
+     * Narrow the options with the options endpoint's filters: `->filters(['inhabited' => true])`
+     *
+     * Unlike `query()`, the filters also apply to the options a parent's change reloads.
+     *
+     * @param  array<string, mixed>  $filters
+     */
+    public function filters(array $filters): static
+    {
+        $this->filters = $filters;
 
         return $this;
     }
@@ -100,6 +117,7 @@ abstract class LocationSelect extends Select
     public function optionsQuery(): ?Builder
     {
         $query = Locations::model($this->location_type)::query()->ordered();
+        $filters = $this->filters;
 
         if ($this->parent_field !== null) {
             $parent = $this->getForm()->getStateValue($this->parent_field);
@@ -108,8 +126,10 @@ abstract class LocationSelect extends Select
                 return null;
             }
 
-            $query = LocationOptions::filter($this->location_type, $query, [$this->parent_filter => $parent]);
+            $filters[$this->parent_filter] = $parent;
         }
+
+        $query = LocationOptions::filter($this->location_type, $query, $filters);
 
         if ($this->modify_query) {
             $query = $this->evaluate($this->modify_query, ['query' => $query]) ?? $query;
@@ -156,7 +176,11 @@ abstract class LocationSelect extends Select
         }
 
         if ($this->parent_field !== null) {
-            $props['ajaxUrl'] = LocationOptions::url($this->location_type);
+            $url = LocationOptions::url($this->location_type);
+
+            $props['ajaxUrl'] = $url && $this->filters
+                ? $url . '?' . http_build_query(['filter' => $this->filters])
+                : $url;
             $props['filterField'] = $this->parent_filter;
             $props['parent'] = $this->getForm()->getField($this->parent_field)?->getSelector() ?? "#{$this->parent_field}";
         }
