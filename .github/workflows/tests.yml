@@ -87,8 +87,9 @@ jobs:
           composer remove --dev javaabu/translatable inertiajs/inertia-laravel --no-update --no-interaction
           composer update --prefer-dist --no-interaction
 
+      # tests/Translatable uses translatable's own test helpers; the Inertia tests skip themselves.
       - name: Run tests
-        run: vendor/bin/phpunit
+        run: vendor/bin/phpunit --exclude-testsuite Translatable
 
   dependencies:
     runs-on: ubuntu-latest
