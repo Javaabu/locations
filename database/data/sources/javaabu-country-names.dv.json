@@ -1,0 +1,237 @@
+{
+    "description": "Dhivehi country names that Debian iso-codes doesn't have (or has wrong). Translated for this package: every name here needs review by a Dhivehi speaker.",
+    "names": {
+        "AQ": {
+            "dhivehi_name": "އެންޓާކްޓިކާ",
+            "note": "Not translated in iso-codes"
+        },
+        "AX": {
+            "dhivehi_name": "އޯލަންޑް ޖަޒީރާ",
+            "note": "Not translated in iso-codes"
+        },
+        "BA": {
+            "dhivehi_name": "ބޮސްނިއާ އަދި ހެރްޒެގޮވީނާ",
+            "note": "Replaces iso-codes: iso-codes uses the English \"and\" (އެންޑް)"
+        },
+        "BL": {
+            "dhivehi_name": "ސަންތި ބާތެލެމީ",
+            "note": "Not translated in iso-codes"
+        },
+        "BN": {
+            "dhivehi_name": "ބުރުނައި",
+            "note": "Not translated in iso-codes"
+        },
+        "BQ": {
+            "dhivehi_name": "ބޮނެއާ، ސިންޓް ޔުސްޓޭޝަސް އަދި ސާބާ",
+            "note": "Not translated in iso-codes"
+        },
+        "BS": {
+            "dhivehi_name": "ބަހާމަސް",
+            "note": "Not translated in iso-codes"
+        },
+        "BV": {
+            "dhivehi_name": "ބުވޭ ޖަޒީރާ",
+            "note": "Not translated in iso-codes"
+        },
+        "CC": {
+            "dhivehi_name": "ކޮކޯސް (ކީލިންގް) ޖަޒީރާ",
+            "note": "Not translated in iso-codes"
+        },
+        "CD": {
+            "dhivehi_name": "ކޮންގޯގެ ޑިމޮކްރެޓިކް ޖުމްހޫރިއްޔާ",
+            "note": "Not translated in iso-codes"
+        },
+        "CG": {
+            "dhivehi_name": "ކޮންގޯ",
+            "note": "Not translated in iso-codes"
+        },
+        "CI": {
+            "dhivehi_name": "ކޯޓް ޑިވޯއާ",
+            "note": "Not translated in iso-codes"
+        },
+        "CN": {
+            "dhivehi_name": "ޗައިނާ",
+            "note": "Not translated in iso-codes"
+        },
+        "CV": {
+            "dhivehi_name": "ކޭޕް ވާޑޭ",
+            "note": "Not translated in iso-codes"
+        },
+        "CW": {
+            "dhivehi_name": "ކިއުރަސާއޯ",
+            "note": "Not translated in iso-codes"
+        },
+        "CX": {
+            "dhivehi_name": "ކްރިސްމަސް ޖަޒީރާ",
+            "note": "Not translated in iso-codes"
+        },
+        "CY": {
+            "dhivehi_name": "ސައިޕްރަސް",
+            "note": "Not translated in iso-codes"
+        },
+        "CZ": {
+            "dhivehi_name": "ޗެކިއާ",
+            "note": "Not translated in iso-codes"
+        },
+        "EE": {
+            "dhivehi_name": "އެސްޓޯނިއާ",
+            "note": "Not translated in iso-codes"
+        },
+        "FK": {
+            "dhivehi_name": "ފޯކްލޭންޑް ޖަޒީރާ",
+            "note": "Not translated in iso-codes"
+        },
+        "FM": {
+            "dhivehi_name": "މައިކްރޮނީޝިއާ",
+            "note": "Not translated in iso-codes"
+        },
+        "GM": {
+            "dhivehi_name": "ގެމްބިއާ",
+            "note": "Not translated in iso-codes"
+        },
+        "GS": {
+            "dhivehi_name": "ސައުތު ޖޯޖިއާ އަދި ސައުތު ސޭންޑްވިޗް ޖަޒީރާ",
+            "note": "Not translated in iso-codes"
+        },
+        "HM": {
+            "dhivehi_name": "ހާޑް ޖަޒީރާ އަދި މެކްޑޮނަލްޑް ޖަޒީރާ",
+            "note": "Not translated in iso-codes"
+        },
+        "IE": {
+            "dhivehi_name": "އަޔަލޭންޑު",
+            "note": "Replaces iso-codes: iso-codes has \"Republic of Ireland\" (އަޔަލޭންޑުގެ ޖުމްހޫރިއްޔާ); the ISO name is Ireland"
+        },
+        "IO": {
+            "dhivehi_name": "ބިރިޓިޝް އިންޑިއަން އޯޝަން ޓެރިޓަރީ",
+            "note": "Not translated in iso-codes"
+        },
+        "IR": {
+            "dhivehi_name": "އީރާން",
+            "note": "Not translated in iso-codes"
+        },
+        "IS": {
+            "dhivehi_name": "އައިސްލޭންޑު",
+            "note": "Replaces iso-codes: iso-codes has އައިސްލަންޑަން, which looks garbled"
+        },
+        "KP": {
+            "dhivehi_name": "އުތުރު ކޮރެއާ",
+            "note": "Not translated in iso-codes"
+        },
+        "KR": {
+            "dhivehi_name": "ދެކުނު ކޮރެއާ",
+            "note": "Not translated in iso-codes"
+        },
+        "LA": {
+            "dhivehi_name": "ލާއޯސް",
+            "note": "Not translated in iso-codes"
+        },
+        "LU": {
+            "dhivehi_name": "ލަގްޒަމްބާގް",
+            "note": "Not translated in iso-codes"
+        },
+        "MF": {
+            "dhivehi_name": "ސަންތި މާޓިން (ފަރަންސޭސި ބައި)",
+            "note": "Not translated in iso-codes"
+        },
+        "MH": {
+            "dhivehi_name": "މާޝަލް ޖަޒީރާ",
+            "note": "Not translated in iso-codes"
+        },
+        "MK": {
+            "dhivehi_name": "އުތުރު މެސެޑޯނިއާ",
+            "note": "Not translated in iso-codes"
+        },
+        "MO": {
+            "dhivehi_name": "މަކާއޯ",
+            "note": "Not translated in iso-codes"
+        },
+        "NA": {
+            "dhivehi_name": "ނަމީބިއާ",
+            "note": "Not translated in iso-codes"
+        },
+        "NF": {
+            "dhivehi_name": "ނޯފޯކް ޖަޒީރާ",
+            "note": "Not translated in iso-codes"
+        },
+        "PN": {
+            "dhivehi_name": "ޕިޓްކެއާން",
+            "note": "Not translated in iso-codes"
+        },
+        "PS": {
+            "dhivehi_name": "ފަލަސްތީނު",
+            "note": "Not translated in iso-codes"
+        },
+        "RU": {
+            "dhivehi_name": "ރަޝިއާ",
+            "note": "Not translated in iso-codes"
+        },
+        "SH": {
+            "dhivehi_name": "ސަންތި ހެލީނާ، އެސެންޝަން އަދި ޓްރިސްޓަން ޑަ ކުންހާ",
+            "note": "Not translated in iso-codes"
+        },
+        "SJ": {
+            "dhivehi_name": "ސްވާލްބާޑް އަދި ޔާން މަޔެން",
+            "note": "Not translated in iso-codes"
+        },
+        "SS": {
+            "dhivehi_name": "ދެކުނު ސޫދާން",
+            "note": "Not translated in iso-codes"
+        },
+        "SX": {
+            "dhivehi_name": "ސިންޓް މާޓެން (ޑަޗް ބައި)",
+            "note": "Not translated in iso-codes"
+        },
+        "SY": {
+            "dhivehi_name": "ސޫރިޔާ",
+            "note": "Not translated in iso-codes"
+        },
+        "SZ": {
+            "dhivehi_name": "އެސްވާޓީނީ",
+            "note": "Not translated in iso-codes"
+        },
+        "TF": {
+            "dhivehi_name": "ފަރަންސޭސި ދެކުނުގެ ސަރަޙައްދުތައް",
+            "note": "Not translated in iso-codes"
+        },
+        "TL": {
+            "dhivehi_name": "ޓިމޯ-ލެސްޓޭ",
+            "note": "Not translated in iso-codes"
+        },
+        "TR": {
+            "dhivehi_name": "ތުރުކީ",
+            "note": "Not translated in iso-codes"
+        },
+        "TT": {
+            "dhivehi_name": "ޓްރިނިޑާޑް އަދި ޓޮބޭގޯ",
+            "note": "Replaces iso-codes: iso-codes leaves out \"and\" (އަދި)"
+        },
+        "TW": {
+            "dhivehi_name": "ތައިވާން",
+            "note": "Replaces iso-codes: iso-codes has ޖުމްހޫރީ ޗައިނާ (\"Republic of China\"); the ISO common name is Taiwan"
+        },
+        "UM": {
+            "dhivehi_name": "އެމެރިކާގެ ކުދި ދުރު ޖަޒީރާތައް",
+            "note": "Not translated in iso-codes"
+        },
+        "US": {
+            "dhivehi_name": "އެމެރިކާ",
+            "note": "Not translated in iso-codes"
+        },
+        "VA": {
+            "dhivehi_name": "ވެޓިކަން",
+            "note": "Not translated in iso-codes"
+        },
+        "VG": {
+            "dhivehi_name": "ބިރިޓިޝް ވާޖިން ޖަޒީރާ",
+            "note": "Not translated in iso-codes"
+        },
+        "VI": {
+            "dhivehi_name": "އެމެރިކާގެ ވާޖިން ޖަޒީރާ",
+            "note": "Not translated in iso-codes"
+        },
+        "YT": {
+            "dhivehi_name": "މަޔޮޓް",
+            "note": "Not translated in iso-codes"
+        }
+    }
+}

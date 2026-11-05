@@ -3,6 +3,7 @@
 namespace Javaabu\Locations;
 
 use Illuminate\Support\ServiceProvider;
+use Javaabu\Locations\Commands\SeedLocationsCommand;
 
 class LocationsServiceProvider extends ServiceProvider
 {
@@ -16,6 +17,10 @@ class LocationsServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->registerMigrations();
             $this->registerPublishing();
+
+            $this->commands([
+                SeedLocationsCommand::class,
+            ]);
         }
 
         $this->loadTranslationsFrom(__DIR__ . '/../lang', 'locations');

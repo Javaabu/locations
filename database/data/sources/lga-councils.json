@@ -1,0 +1,921 @@
+{
+    "source": "https://www.lga.gov.mv/en/councils",
+    "retrieved": "2026-11-05",
+    "councils": [
+        {
+            "id": 2,
+            "name": "Male' City Council",
+            "dhivehi_name": "މާލޭ ސިޓީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 3,
+            "name": "Addu City Council",
+            "dhivehi_name": "އައްޑޫ ސިޓީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 4,
+            "name": "Fuvammulah City Council",
+            "dhivehi_name": "ފުވައްމުލަކު ސިޓީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 6,
+            "name": "HA. Thuraakunu Council",
+            "dhivehi_name": "ތިލަދުންމަތީ އުތުރުބުރީ ތުރާކުނު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 7,
+            "name": "HA. Uligan Council",
+            "dhivehi_name": "ތިލަދުންމަތީ އުތުރުބުރީ އުލިގަމު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 8,
+            "name": "HA. Molhadhoo Council",
+            "dhivehi_name": "ތިލަދުންމަތީ އުތުރުބުރީ މޮޅަދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 9,
+            "name": "HA. Hoarafushi Council",
+            "dhivehi_name": "ތިލަދުންމަތީ އުތުރުބުރީ ހޯރަފުށި ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 10,
+            "name": "HA. Ihavandhoo Council",
+            "dhivehi_name": "ތިލަދުންމަތީ އުތުރުބުރީ އިހަވަންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 11,
+            "name": "HA. Kelaa Council",
+            "dhivehi_name": "ތިލަދުންމަތީ އުތުރުބުރީ ކެލާ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 12,
+            "name": "HA. Vashafaru Council",
+            "dhivehi_name": "ތިލަދުންމަތީ އުތުރުބުރީ ވަށަފަރު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 13,
+            "name": "HA. Dhidhdhoo Council",
+            "dhivehi_name": "ތިލަދުންމަތީ އުތުރުބުރީ ދިއްދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 14,
+            "name": "HA. Filladhoo Council",
+            "dhivehi_name": "ތިލަދުންމަތީ އުތުރުބުރީ ފިއްލަދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 15,
+            "name": "HA. Maarandhoo Council",
+            "dhivehi_name": "ތިލަދުންމަތީ އުތުރުބުރީ މާރަންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 16,
+            "name": "HA. Thakandhoo Council",
+            "dhivehi_name": "ތިލަދުންމަތީ އުތުރުބުރީ ތަކަންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 17,
+            "name": "HA. Utheemu Council",
+            "dhivehi_name": "ތިލަދުންމަތީ އުތުރުބުރީ އުތީމު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 18,
+            "name": "HA. Muraidhoo Council",
+            "dhivehi_name": "ތިލަދުންމަތީ އުތުރުބުރީ މުރައިދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 19,
+            "name": "HA. Baarah Council",
+            "dhivehi_name": "ތިލަދުންމަތީ އުތުރުބުރީ ބާރަށު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 21,
+            "name": "HDh. Hanimaadhoo Council",
+            "dhivehi_name": "ތިލަދުންމަތީ ދެކުނުބުރީ ހަނިމާދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 22,
+            "name": "HDh. Finey Council",
+            "dhivehi_name": "ތިލަދުންމަތީ ދެކުނުބުރީ ފިނޭ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 23,
+            "name": "HDh. Naivaadhoo Council",
+            "dhivehi_name": "ތިލަދުންމަތީ ދެކުނުބުރީ ނައިވާދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 25,
+            "name": "HDh. Nolhivaranfaru Council",
+            "dhivehi_name": "ތިލަދުންމަތީ ދެކުނުބުރީ ނޮޅިވަރަންފަރު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 26,
+            "name": "HDh. Nellaidhoo Council",
+            "dhivehi_name": "ތިލަދުންމަތީ ދެކުނުބުރީ ނެއްލައިދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 27,
+            "name": "HDh. Nolhivaran Council",
+            "dhivehi_name": "ތިލަދުންމަތީ ދެކުނުބުރީ ނޮޅިވަރަމު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 28,
+            "name": "HDh. Kurinbee Council",
+            "dhivehi_name": "ތިލަދުންމަތީ ދެކުނުބުރީ ކުރިނބީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 29,
+            "name": "Kulhudhuffushi City Council",
+            "dhivehi_name": "ކުޅުދުއްފުށި ސިޓީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 30,
+            "name": "HDh. Kumundhoo Council",
+            "dhivehi_name": "ތިލަދުންމަތީ ދެކުނުބުރީ ކުމުންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 31,
+            "name": "HDh. Neykurendhoo Council",
+            "dhivehi_name": "ތިލަދުންމަތީ ދެކުނުބުރީ ނޭކުރެންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 32,
+            "name": "HDh. Vaikaradhoo Council",
+            "dhivehi_name": "ތިލަދުންމަތީ ދެކުނުބުރީ ވައިކަރަދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 33,
+            "name": "HDh. Makunudhoo Council",
+            "dhivehi_name": "ތިލަދުންމަތީ ދެކުނުބުރީ މަކުނުދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 35,
+            "name": "Sh. Kanditheemu Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު އުތުރުބުރީ ކަނޑިތީމު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 36,
+            "name": "Sh. Noomaraa Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު އުތުރުބުރީ ނޫމަރާ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 37,
+            "name": "Sh. Goidhoo Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު އުތުރުބުރީ ގޮއިދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 38,
+            "name": "Sh. Feydhoo Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު އުތުރުބުރީ ފޭދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 39,
+            "name": "Sh. Feevah Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު އުތުރުބުރީ ފީވަކު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 40,
+            "name": "Sh. Bileiyfahi Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު އުތުރުބުރީ ބިލެއްފަހީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 41,
+            "name": "Sh. Foakaidhoo Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު އުތުރުބުރީ ފޯކައިދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 42,
+            "name": "Sh. Narudhoo Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު އުތުރުބުރީ ނަރުދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 43,
+            "name": "Sh. Maroshi Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު އުތުރުބުރީ މަރޮށި ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 44,
+            "name": "Sh. Lhaimagu Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު އުތުރުބުރީ ޅައިމަގު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 45,
+            "name": "Sh. Komandoo Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު އުތުރުބުރީ ކޮމަންޑޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 46,
+            "name": "Sh. Maaungoodhoo Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު އުތުރުބުރީ މާއުނގޫދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 47,
+            "name": "Sh. Funadhoo Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު އުތުރުބުރީ ފުނަދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 48,
+            "name": "Sh. Milandhoo Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު އުތުރުބުރީ މިލަންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 50,
+            "name": "N. Henbadhoo Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު ދެކުނުބުރީ ހެނބަދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 51,
+            "name": "N. Kendhikulhudhoo Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު ދެކުނުބުރީ ކެނދިކުޅުދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 52,
+            "name": "N. Maalhendhoo Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު ދެކުނުބުރީ މާޅެންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 53,
+            "name": "N. Kudafari Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު ދެކުނުބުރީ ކުޑަފަރީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 54,
+            "name": "N. Landhoo Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު ދެކުނުބުރީ ލަންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 55,
+            "name": "N. Maafaru Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު ދެކުނުބުރީ މާފަރު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 56,
+            "name": "N. Lhohi Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު ދެކުނުބުރީ ޅޮހީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 57,
+            "name": "N. Miladhoo Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު ދެކުނުބުރީ މިލަދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 58,
+            "name": "N. Magoodhoo Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު ދެކުނުބުރީ މަގޫދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 59,
+            "name": "N. Manadhoo Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު ދެކުނުބުރީ މަނަދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 60,
+            "name": "N. Holhudhoo Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު ދެކުނުބުރީ ހޮޅުދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 61,
+            "name": "N. Fodhdhoo Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު ދެކުނުބުރީ ފޮއްދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 62,
+            "name": "N. Velidhoo Council",
+            "dhivehi_name": "މިލަދުންމަޑުލު ދެކުނުބުރީ ވެލިދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 64,
+            "name": "R. Alifushi Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު އުތުރުބުރީ އަލިފުށީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 65,
+            "name": "R. Vaadhoo Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު އުތުރުބުރީ ވާދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 66,
+            "name": "R. Rasgetheemu Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު އުތުރުބުރީ ރަސްގެތީމު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 67,
+            "name": "R. Angolhitheemu Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު އުތުރުބުރީ އަނގޮޅިތީމު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 68,
+            "name": "R. Ungoofaaru Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު އުތުރުބުރީ އުނގޫފާރު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 69,
+            "name": "R. Maakurathu Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު އުތުރުބުރީ މާކުރަތު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 70,
+            "name": "R. Rasmaadhoo Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު އުތުރުބުރީ ރަސްމާދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 71,
+            "name": "R. Innamaadhoo Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު އުތުރުބުރީ އިންނަމާދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 72,
+            "name": "R. Maduvvari Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު އުތުރުބުރީ މަޑުއްވަރީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 73,
+            "name": "R. Inguraidhoo Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު އުތުރުބުރީ އިނގުރައިދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 74,
+            "name": "R. Fainu Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު އުތުރުބުރީ ފައިނު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 75,
+            "name": "R. Meedhoo Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު އުތުރުބުރީ މީދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 76,
+            "name": "R. Kinolhas Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު އުތުރުބުރީ ކިނޮޅަހު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 77,
+            "name": "R. Hulhudhuffaaru Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު އުތުރުބުރީ ހުޅުދުއްފާރު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 78,
+            "name": "R. Dhuvaafaru Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު އުތުރުބުރީ ދުވާފަރު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 80,
+            "name": "B. Kudarikilu Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު ދެކުނުބުރީ ކުޑަރިކިލު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 81,
+            "name": "B. Kamadhoo Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު ދެކުނުބުރީ ކަމަދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 82,
+            "name": "B. Kendhoo Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު ދެކުނުބުރީ ކެންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 83,
+            "name": "B. Kihaadhoo Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު ދެކުނުބުރީ ކިހާދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 84,
+            "name": "B. Dhonfanu Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު ދެކުނުބުރީ ދޮންފަނު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 85,
+            "name": "B. Dharavandhoo Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު ދެކުނުބުރީ ދަރަވަންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 86,
+            "name": "B. Maalhos Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު ދެކުނުބުރީ މާޅޮހު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 87,
+            "name": "B. Eydhafushi Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު ދެކުނުބުރީ އޭދަފުށީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 88,
+            "name": "B. Thulhaadhoo Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު ދެކުނުބުރީ ތުޅާދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 89,
+            "name": "B. Hithaadhoo Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު ދެކުނުބުރީ ހިތާދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 90,
+            "name": "B. Fulhadhoo Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު ދެކުނުބުރީ ފުޅަދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 91,
+            "name": "B. Fehendhoo Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު ދެކުނުބުރީ ފެހެންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 92,
+            "name": "B. Goidhoo Council",
+            "dhivehi_name": "މާޅޮސްމަޑުލު ދެކުނުބުރީ ގޮއިދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 94,
+            "name": "Lh. Hinnavaru Council",
+            "dhivehi_name": "ޕާދިއްޕޮޅު ހިންނަވަރު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 95,
+            "name": "Lh. Naifaru Council",
+            "dhivehi_name": "ޕާދިއްޕޮޅު ނައިފަރު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 96,
+            "name": "Lh. Kurendhoo Council",
+            "dhivehi_name": "ޕާދިއްޕޮޅު ކުރެންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 97,
+            "name": "Lh. Olhuvelifushi Council",
+            "dhivehi_name": "ޕާދިއްޕޮޅު އޮޅުވެލިފުށީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 99,
+            "name": "K. Kaashidhoo Council",
+            "dhivehi_name": "މާލެއަތޮޅު ކާށިދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 100,
+            "name": "K. Gaafaru Council",
+            "dhivehi_name": "މާލެއަތޮޅު ގާފަރު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 101,
+            "name": "K. Dhiffushi Council",
+            "dhivehi_name": "މާލެއަތޮޅު ދިއްފުށީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 102,
+            "name": "K. Thulusdhoo Council",
+            "dhivehi_name": "މާލެއަތޮޅު ތުލުސްދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 103,
+            "name": "K. Huraa Council",
+            "dhivehi_name": "މާލެއަތޮޅު ހުރާ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 104,
+            "name": "K. Himmafushi Council",
+            "dhivehi_name": "މާލެއަތޮޅު ހިންމަފުށީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 105,
+            "name": "K. Gulhi Council",
+            "dhivehi_name": "މާލެއަތޮޅު ގުޅީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 106,
+            "name": "K. Maafushi Council",
+            "dhivehi_name": "މާލެއަތޮޅު މާފުށީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 107,
+            "name": "K. Guraidhoo Council",
+            "dhivehi_name": "މާލެއަތޮޅު ގުރައިދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 109,
+            "name": "AA. Thoddoo Council",
+            "dhivehi_name": "އަރިއަތޮޅު އުތުރުބުރީ ތޮއްޑޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 110,
+            "name": "AA. Rasdhoo Council",
+            "dhivehi_name": "އަރިއަތޮޅު އުތުރުބުރީ ރަސްދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 111,
+            "name": "AA. Ukulhas Council",
+            "dhivehi_name": "އަރިއަތޮޅު އުތުރުބުރީ އުކުޅަހު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 112,
+            "name": "AA. Bodufolhudhoo Council",
+            "dhivehi_name": "އަރިއަތޮޅު އުތުރުބުރީ ބޮޑުފުޅަދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 113,
+            "name": "AA. Mathiveri Council",
+            "dhivehi_name": "އަރިއަތޮޅު އުތުރުބުރީ މަތިވެރީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 114,
+            "name": "AA. Feridhoo Council",
+            "dhivehi_name": "އަރިއަތޮޅު އުތުރުބުރީ ފެރިދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 115,
+            "name": "AA. Maalhos Council",
+            "dhivehi_name": "އަރިއަތޮޅު އުތުރުބުރީ މާޅޮހު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 116,
+            "name": "AA. Himandhoo Council",
+            "dhivehi_name": "އަރިއަތޮޅު އުތުރުބުރީ ހިމަންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 118,
+            "name": "ADh. Hangnaameedhoo Council",
+            "dhivehi_name": "އަރިއަތޮޅު ދެކުނުބުރީ ހަންޏާމީދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 119,
+            "name": "ADh. Omadhoo Council",
+            "dhivehi_name": "އަރިއަތޮޅު ދެކުނުބުރީ އޮމަދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 120,
+            "name": "ADh. Kunburudhoo Council",
+            "dhivehi_name": "އަރިއަތޮޅު ދެކުނުބުރީ ކުނބުރުދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 121,
+            "name": "ADh. Mahibadhoo Council",
+            "dhivehi_name": "އަރިއަތޮޅު ދެކުނުބުރީ މަހިބަދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 122,
+            "name": "ADh. Mandhoo Council",
+            "dhivehi_name": "އަރިއަތޮޅު ދެކުނުބުރީ މަންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 123,
+            "name": "ADh. Dhangethi Council",
+            "dhivehi_name": "އަރިއަތޮޅު ދެކުނުބުރީ ދަނގެތީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 124,
+            "name": "ADh. Dhigurah Council",
+            "dhivehi_name": "އަރިއަތޮޅު ދެކުނުބުރީ ދިގުރަށު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 125,
+            "name": "ADh. Fenfushi Council",
+            "dhivehi_name": "އަރިއަތޮޅު ދެކުނުބުރީ ފެންފުށީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 126,
+            "name": "ADh. Dhidhdhoo Council",
+            "dhivehi_name": "އަރިއަތޮޅު ދެކުނުބުރީ ދިއްދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 127,
+            "name": "ADh. Maamigili Council",
+            "dhivehi_name": "އަރިއަތޮޅު ދެކުނުބުރީ މާމިގިލީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 129,
+            "name": "V. Fulidhoo Council",
+            "dhivehi_name": "ފެލިދެއަތޮޅު ފުލިދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 130,
+            "name": "V. Thinadhoo Council",
+            "dhivehi_name": "ފެލިދެއަތޮޅު ތިނަދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 131,
+            "name": "V. Felidhoo Council",
+            "dhivehi_name": "ފެލިދެއަތޮޅު ފެލިދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 132,
+            "name": "V. Keyodhoo Council",
+            "dhivehi_name": "ފެލިދެއަތޮޅު ކެޔޮދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 133,
+            "name": "V. Rakeedhoo Council",
+            "dhivehi_name": "ފެލިދެއަތޮޅު ރަކީދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 135,
+            "name": "M. Raiymandhoo Council",
+            "dhivehi_name": "މުލަކުއަތޮޅު ރަތްމަންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 136,
+            "name": "M. Veyvah Council",
+            "dhivehi_name": "މުލަކުއަތޮޅު ވޭވަށު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 137,
+            "name": "M. Mulah Council",
+            "dhivehi_name": "މުލަކުއަތޮޅު މުލަކު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 138,
+            "name": "M. Muli Council",
+            "dhivehi_name": "މުލަކުއަތޮޅު މުލީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 139,
+            "name": "M. Naalaafushi Council",
+            "dhivehi_name": "މުލަކުއަތޮޅު ނާލާފުށީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 140,
+            "name": "M. Kolhufushi Council",
+            "dhivehi_name": "މުލަކުއަތޮޅު ކޮޅުފުށީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 141,
+            "name": "M. Dhiggaru Council",
+            "dhivehi_name": "މުލަކުއަތޮޅު ދިއްގަރު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 142,
+            "name": "M. Maduvvari Council",
+            "dhivehi_name": "މުލަކުއަތޮޅު މަޑުއްވަރީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 144,
+            "name": "F. Feeali Council",
+            "dhivehi_name": "ނިލަންދެއަތޮޅު އުތުރުބުރީ ފީއަލީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 145,
+            "name": "F. Bileiydhoo Council",
+            "dhivehi_name": "ނިލަންދެއަތޮޅު އުތުރުބުރީ ބިލެތްދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 146,
+            "name": "F. Magoodhoo Council",
+            "dhivehi_name": "ނިލަންދެއަތޮޅު އުތުރުބުރީ މަގޫދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 147,
+            "name": "F. Dharanboodhoo Council",
+            "dhivehi_name": "ނިލަންދެއަތޮޅު އުތުރުބުރީ ދަރަނބޫދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 148,
+            "name": "F. Nilandhoo Council",
+            "dhivehi_name": "ނިލަންދެއަތޮޅު އުތުރުބުރީ ނިލަންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 150,
+            "name": "Dh. Meedhoo Council",
+            "dhivehi_name": "ނިލަންދެއަތޮޅު ދެކުނުބުރީ މީދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 151,
+            "name": "Dh. Bandidhoo Council",
+            "dhivehi_name": "ނިލަންދެއަތޮޅު ދެކުނުބުރީ ބަނޑިދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 152,
+            "name": "Dh. Rinbudhoo Council",
+            "dhivehi_name": "ނިލަންދެއަތޮޅު ދެކުނުބުރީ ރިނބުދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 153,
+            "name": "Dh. Hulhudheli Council",
+            "dhivehi_name": "ނިލަންދެއަތޮޅު ދެކުނުބުރީ ހުޅުދެލީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 154,
+            "name": "Dh. Maaenboodoo Council",
+            "dhivehi_name": "ނިލަންދެއަތޮޅު ދެކުނުބުރީ މާއެނބޫދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 155,
+            "name": "Dh. Kudahuvadhoo Council",
+            "dhivehi_name": "ނިލަންދެއަތޮޅު ދެކުނުބުރީ ކުޑަހުވަދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 157,
+            "name": "Th. Buruni Council",
+            "dhivehi_name": "ކޮޅުމަޑުލު ބުރުނީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 158,
+            "name": "Th. Vilufushi Council",
+            "dhivehi_name": "ކޮޅުމަޑުލު ވިލުފުށީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 159,
+            "name": "Th. Madifushi Council",
+            "dhivehi_name": "ކޮޅުމަޑުލު މަޑިފުށީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 160,
+            "name": "Th. Dhiyamigili Council",
+            "dhivehi_name": "ކޮޅުމަޑުލު ދިޔަމިގިލީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 161,
+            "name": "Th. Guraidhoo Council",
+            "dhivehi_name": "ކޮޅުމަޑުލު ގުރައިދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 162,
+            "name": "Th. Kandoodhoo Council",
+            "dhivehi_name": "ކޮޅުމަޑުލު ކަނޑޫދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 163,
+            "name": "Th. Vandhoo Council",
+            "dhivehi_name": "ކޮޅުމަޑުލު ވަންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 164,
+            "name": "Th. Hirilandhoo Council",
+            "dhivehi_name": "ކޮޅުމަޑުލު ހިރިލަންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 165,
+            "name": "Th. Gaadhiffushi Council",
+            "dhivehi_name": "ކޮޅުމަޑުލު ގާދިއްފުށީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 166,
+            "name": "Th. Thimarafushi Council",
+            "dhivehi_name": "ކޮޅުމަޑުލު ތިމަރަފުށީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 167,
+            "name": "Th. Veymandoo Council",
+            "dhivehi_name": "ކޮޅުމަޑުލު ވޭމަންޑޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 168,
+            "name": "Th. Kinbidhoo Council",
+            "dhivehi_name": "ކޮޅުމަޑުލު ކިނބިދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 169,
+            "name": "Th. Omadhoo Council",
+            "dhivehi_name": "ކޮޅުމަޑުލު އޮމަދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 171,
+            "name": "L. Isdhoo Council",
+            "dhivehi_name": "ހައްދުންމަތީ އިސްދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 172,
+            "name": "L. Dhanbidhoo Council",
+            "dhivehi_name": "ހައްދުންމަތީ ދަނބިދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 173,
+            "name": "L. Maabaidhoo Council",
+            "dhivehi_name": "ހައްދުންމަތީ މާބައިދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 174,
+            "name": "L. Mundoo Council",
+            "dhivehi_name": "ހައްދުންމަތީ މުންޑޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 175,
+            "name": "L. Kalaidhoo Council",
+            "dhivehi_name": "ހައްދުންމަތީ ކަލައިދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 176,
+            "name": "L. Gan Council",
+            "dhivehi_name": "ހައްދުންމަތީ ގަމު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 177,
+            "name": "L. Maavah Council",
+            "dhivehi_name": "ހައްދުންމަތީ މާވަށު ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 178,
+            "name": "L. Fonadhoo Council",
+            "dhivehi_name": "ހައްދުންމަތީ ފޮނަދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 179,
+            "name": "L. Maamendhoo Council",
+            "dhivehi_name": "ހައްދުންމަތީ މާމެންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 180,
+            "name": "L. Hithadhoo Council",
+            "dhivehi_name": "ހައްދުންމަތީ ހިތަދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 181,
+            "name": "L. Kunahandhoo Council",
+            "dhivehi_name": "ހައްދުންމަތީ ކުނަހަންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 183,
+            "name": "GA. Kolamaafushi Council",
+            "dhivehi_name": "ހުވަދުއަތޮޅު އުތުރުބުރީ ކޮލަމާފުށީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 184,
+            "name": "GA. Vilingili Council",
+            "dhivehi_name": "ހުވަދުއަތޮޅު އުތުރުބުރީ ވިލިނގިލީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 185,
+            "name": "GA. Maamendhoo Council",
+            "dhivehi_name": "ހުވަދުއަތޮޅު އުތުރުބުރީ މާމެންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 186,
+            "name": "GA. Nilandhoo Council",
+            "dhivehi_name": "ހުވަދުއަތޮޅު އުތުރުބުރީ ނިލަންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 187,
+            "name": "GA. Dhaandhoo Council",
+            "dhivehi_name": "ހުވަދުއަތޮޅު އުތުރުބުރީ ދާންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 188,
+            "name": "GA. Dhevvadhoo Council",
+            "dhivehi_name": "ހުވަދުއަތޮޅު އުތުރުބުރީ ދެއްވަދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 189,
+            "name": "GA. Kondey Council",
+            "dhivehi_name": "ހުވަދުއަތޮޅު އުތުރުބުރީ ކޮނޑޭ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 190,
+            "name": "GA. Gemanafushi Council",
+            "dhivehi_name": "ހުވަދުއަތޮޅު އުތުރުބުރީ ގެމަނަފުށި ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 191,
+            "name": "GA. Kanduhulhuhdoo Council",
+            "dhivehi_name": "ހުވަދުއަތޮޅު އުތުރުބުރީ ކަނޑުހުޅުދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 193,
+            "name": "GDh. Madaveli Council",
+            "dhivehi_name": "ހުވަދުއަތޮޅު ދެކުނުބުރީ މަޑަވެލީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 194,
+            "name": "GDh. Hoadedhdhoo Council",
+            "dhivehi_name": "ހުވަދުއަތޮޅު ދެކުނުބުރީ ހޯނޑެއްދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 195,
+            "name": "GDh. Nadella Council",
+            "dhivehi_name": "ހުވަދުއަތޮޅު ދެކުނުބުރީ ނަޑެއްލާ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 196,
+            "name": "GDh. Gadhdhoo Council",
+            "dhivehi_name": "ހުވަދުއަތޮޅު ދެކުނުބުރީ ގައްދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 197,
+            "name": "GDh. Rathafandhoo Council",
+            "dhivehi_name": "ހުވަދުއަތޮޅު ދެކުނުބުރީ ރަތަފަންދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 198,
+            "name": "GDh. Vaadhoo Council",
+            "dhivehi_name": "ހުވަދުއަތޮޅު ދެކުނުބުރީ ވާދޫ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 199,
+            "name": "GDh. Fiyoaree Council",
+            "dhivehi_name": "ހުވަދުއަތޮޅު ދެކުނުބުރީ ފިޔޯރީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 200,
+            "name": "GDh. Faresmaathodaa Council",
+            "dhivehi_name": "ހުވަދުއަތޮޅު ދެކުނުބުރީ ފަރެސްމާތޮޑާ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 201,
+            "name": "Thinadhoo City Council",
+            "dhivehi_name": "ތިނަދޫ ސިޓީ ކައުންސިލްގެ އިދާރާ"
+        },
+        {
+            "id": 202,
+            "name": "S. Addu Hulhudhoo Council",
+            "dhivehi_name": "ސ. އައްޑޫހުޅުދޫ"
+        },
+        {
+            "id": 203,
+            "name": "S. Addu Meedhoo Council",
+            "dhivehi_name": "ސ. އައްޑޫމީދޫ"
+        }
+    ]
+}

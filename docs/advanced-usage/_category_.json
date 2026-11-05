@@ -1,0 +1,11 @@
+{
+    "position": 1.32,
+    "label": "Advanced Usage",
+    "collapsible": true,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "slug": "/locations/_categories/advanced-usage",
+        "description": "Where the data comes from, configuration, custom models, permissions, overriding controllers and views, javaabu/translatable, Dhivehi and the full API."
+    }
+}

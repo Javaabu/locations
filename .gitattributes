@@ -14,3 +14,4 @@
 /vitest.config.ts   export-ignore
 /node_modules       export-ignore
 /pnpm-lock.yaml     export-ignore
+/database/data/sources export-ignore

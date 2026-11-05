@@ -1,0 +1,10 @@
+{
+    "description": "English display names for ISO 3166-1 short names written with an inverted comma (\"Congo, The Democratic Republic of the\"). The ISO name is kept as iso_name. iso-codes' common_name is used when it has one.",
+    "names": {
+        "CD": "Democratic Republic of the Congo",
+        "FM": "Micronesia",
+        "PS": "Palestine",
+        "VG": "British Virgin Islands",
+        "VI": "U.S. Virgin Islands"
+    }
+}

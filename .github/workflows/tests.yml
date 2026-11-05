@@ -116,6 +116,28 @@ jobs:
             exit 1
           fi
 
+  data:
+    runs-on: ubuntu-latest
+
+    name: Seed data
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.4"
+          coverage: none
+
+      - name: Check that the data files match their sources
+        run: |
+          php bin/build-data.php
+          git diff --exit-code -- database/data || (echo "database/data is out of date: run php bin/build-data.php and commit it." && exit 1)
+
+      - name: Validate the data files
+        run: php bin/validate-data.php
+
   pint:
     runs-on: ubuntu-latest
 
