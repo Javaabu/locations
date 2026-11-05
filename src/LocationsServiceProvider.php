@@ -14,7 +14,17 @@ class LocationsServiceProvider extends ServiceProvider
     public function boot(): void
     {
         if ($this->app->runningInConsole()) {
+            $this->registerMigrations();
             $this->registerPublishing();
+        }
+
+        $this->loadTranslationsFrom(__DIR__ . '/../lang', 'locations');
+    }
+
+    protected function registerMigrations(): void
+    {
+        if (Locations::$runs_migrations) {
+            $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
         }
     }
 
@@ -23,5 +33,13 @@ class LocationsServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../config/locations.php' => config_path('locations.php'),
         ], 'locations-config');
+
+        $this->publishes([
+            __DIR__ . '/../database/migrations' => database_path('migrations'),
+        ], 'locations-migrations');
+
+        $this->publishes([
+            __DIR__ . '/../lang' => $this->app->langPath('vendor/locations'),
+        ], 'locations-translations');
     }
 }
