@@ -120,13 +120,15 @@ class LocationsServiceProvider extends ServiceProvider
             $package
                 ->js()
                 ->pages()
+                // Only the pages and the alias imports use these: the Blade selects use
+                // javaabu/forms' own script, so Blade apps aren't asked for React.
                 ->npm([
                     '@javaabu/forms' => 'github:Javaabu/react-forms#next-gen',
                 ], peer_dependencies: [
                     'react' => '^18.3 || ^19.0',
                     'react-dom' => '^18.3 || ^19.0',
                     '@inertiajs/react' => '^2.0 || ^3.0',
-                ]);
+                ], for: 'pages');
         });
     }
 }

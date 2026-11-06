@@ -124,6 +124,8 @@ import { AtollSelect, CountrySelect, IslandSelect } from "@javaabu/locations"
 <IslandSelect name="island_id" label="ރަށް" parent="#atoll_id" filters={{ inhabited: true }} />
 ```
 
+Blade forms need no npm packages. React needs `@javaabu/forms` and React, which `php artisan manifest:check` lists once `@inertiajs/react` is in `package.json` (or with `--scope=pages`).
+
 The stencil fields validate that the chosen location exists. With a plain FormRequest, use `Rule::exists(Locations::islandModel(), 'id')`.
 
 ## 5. Admin pages

@@ -17,6 +17,8 @@ For the Inertia React pages and components:
 - React 18.3 or 19
 - [inertiajs/inertia-laravel](https://github.com/inertiajs/inertia-laravel) 2 or 3, and `@inertiajs/react`
 - [@javaabu/forms](https://github.com/Javaabu/react-forms) (`php artisan manifest:check` lists what's missing)
+
+Blade apps need none of these npm packages: the Blade selects use javaabu/forms' own script. The package declares its npm packages for manifest's `pages` scope, so `manifest:check` only asks for them when your `package.json` has `@inertiajs/react`.
 - manifest's Vite plugin, which lets your app import `@javaabu/locations` and `@javaabu/stencil`
 
 Optional:

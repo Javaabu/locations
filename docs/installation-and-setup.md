@@ -106,7 +106,7 @@ The pages are `locations::Resources/Index`, `locations::Resources/Form` and `loc
 import { IslandSelect } from "@javaabu/locations"
 ```
 
-`php artisan manifest:check` lists the npm packages your app still needs.
+`php artisan manifest:check` lists the npm packages your app still needs. Locations' (`@javaabu/forms`, React) are only listed once your `package.json` has `@inertiajs/react`, so a Blade app isn't asked for them; `--scope=pages` checks them anyway.
 
 # Publishing
 
